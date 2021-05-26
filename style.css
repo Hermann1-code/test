@@ -1,0 +1,349 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    
+}
+body{
+    background:#6a7179;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background:#191a1e ;
+
+    display: flex;
+
+}
+.container nav{
+    width: 300px;
+    background: #22252a;
+    height: 100%;
+
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0);
+    position: relative;
+
+}
+.container nav .logo h1{
+    color: white;
+    padding: 20px 55px;
+
+    
+}
+.container ul li{
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding-left: 30px;
+    height: 40px;
+    width: 82%;
+    color: #484d50;
+    position: relative;
+
+}
+.container nav ul li a > i{
+    margin-right: 20px;
+}
+
+.container nav ul li a span i{
+    position: absolute;
+    right: 15px;
+    font-size: 10px;
+    line-height: 40px;
+}
+.container ul li:hover{
+    background: #191d16;
+}
+.container ul li:hover a{
+    background: #a2c005;
+    color: #fff;
+    border-radius: 7px;
+
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 9fr;
+}
+.container ul li:hover a > i{
+    font-size: 18px;
+}
+.container nav ul li:hover a span i{
+    color:#484d50 ;
+}
+nav .finBox{
+    width: 95%;
+    height: 90px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.212);
+    border-radius: 15px;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+nav .finBox .box{
+    width:50px;
+    height: 50px;
+    background: #a2c005;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .finBox .box i{
+    font-size: 30px;
+    color: white;
+}
+.bar{
+    display: flex;
+}
+#search{
+    width: 300px;
+    background: #0c0d0f;
+    border: none;
+    height: 40px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.164);;
+    border-radius: 50px;
+    padding-left: 40px;
+    position: absolute;
+    margin:20px 30px;
+}
+.bar .search i{
+    position: absolute;
+    color: #3c3d3f;
+    left: 345px;
+    top: 33px;
+    font-size: 14px;
+}
+.bar .but{
+    width: 250px;
+    background: #0c0d0f;
+    border: none;
+    height: 40px;
+    margin: 20px 0 0 500px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar .but .disign{
+    width: 48%;
+    height: 30px;
+    border-radius: 50px;
+    color: #87888c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar .but .manager{
+    width: 48%;
+    height: 30px;
+    background: #22242a;
+    border-radius: 50px;
+    color: #87888c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.creat{
+    display: flex;
+    width: 400px;
+
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 300px;
+    align-items: center;
+    justify-content: space-around;
+}
+.creat button{
+    width: 200px;
+    background: #2e47ca;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    letter-spacing: 1px;
+    font-size:16px;
+}
+.creat > i {
+
+    font-size: 30px;
+    color: #4f4f54;
+
+    
+}
+.bar .creat .demi{
+    width: 80px;
+    height: 40px;
+    display: flex;
+    background: #3b3d43;
+    border-radius: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.creat .demi i{
+    color: #fff;
+    display: block;
+    font-size:20px;
+    color: #f1f1f1;
+
+}
+.creat .image{
+    width: 30px;
+    height: 30px;
+    background: url(michael.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.body h1{
+    margin-left: 30px;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+.body h1 span{
+    color: #535458;
+    font-weight: 400;
+}
+.body h1 button{
+    padding: 5px 10px;
+    border: 1px rgb(255, 255, 255) solid;
+    background: none;
+    border-radius: 50px;
+    margin-left: 10px;
+
+    color: white;
+}
+h3{
+    position: absolute;
+    top: 150px;
+    left: 330px;
+    color: white;
+    font-weight: 400;
+}
+.prod{
+    width: 1470px;
+    height: 250px;
+
+    position: absolute;
+    top: 200px;
+    left: 330px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    grid-gap: 10px;
+}
+.prod .img{
+    
+    border-radius: 30px;
+    background: url(michael.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    
+}
+.prod .fleche{
+background: transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.fleches{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.123);
+}
+.fleches i{
+    padding: 20px;
+    color: #fff;
+    
+}
+.bas{
+    width: 1470px;
+    height: 370px;
+    position: absolute;
+    top: 470px;
+    left: 330px;
+    display: grid;
+
+    grid-template-columns: 6fr 4fr;
+    grid-gap: 50px;
+
+}
+.clients{
+    border-radius: 30px;
+    background: #22252a;
+    padding: 20px;
+    color: white;
+}
+.clients h4{
+    margin: 10px 0 20px 0;
+    font-weight: 300;
+}
+.commentaire{
+    border-radius: 30px;
+    background: #22252a
+}
+table{
+    color: white;
+}
+.clients table td{
+    padding:3px 80px;
+    
+}
+table tbody td{
+    border-bottom: 1px rgba(243, 241, 241, 0.11) solid;
+    border-collapse: collapse;
+}
+.clients button{
+    margin: 8px 400px ;
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 8px;
+    padding: 5px;
+}
+.commentaire table td .image{
+    width: 40px;
+    height: 40px;
+    background: url(michael.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.commentaire{
+    padding: 20px;
+}
+.commentaire table td{
+    height: 100px;
+    width: 400PX;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+
+}
+
+
